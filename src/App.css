@@ -1,38 +1,88 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.App-header {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  min-height:50px;
+  border: darkblue 1px solid;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  pointer-events: none;
+  height: 50px;
+  width: 50px;
+  /*justify-content: center;*/
   align-items: center;
+  animation: App-logo-spin infinite 20s linear;
+}
+.App-menu{
+  display: flex;
+  width: 1200px;
+  height: 50px;
+  flex-direction: row;
+  border: green 1px solid;
+}
+.App-menu-item{
+  display: flex;
+  height: 50px;
+  flex: 300px;
+  color: darkgreen;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  font-size: 30px;
+}
+.App-content{
+  display: flex;
+  height: 860px;
+  background: white;
+  color: purple;
+  border: purple 1px solid;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+
+}
+.App-footer{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 50px;
+  background-color: white;
+  border: greenyellow 1px solid;
+}
+.Footer-content{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  align-items: center;
+  width: 50px;
+  font-size: 30px;
+  color: green;
+}
+@media (min-width: 960px) {
+  .App {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
