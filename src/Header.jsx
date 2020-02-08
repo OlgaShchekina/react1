@@ -5,10 +5,10 @@ import Menu from "./Menu";
 
 function Header() {
   return (
-      <div className="App-header">
+      <header className="App-header">
           <Logo/>
           <Menu/>
-     </div>
+     </header>
 
   );
 }

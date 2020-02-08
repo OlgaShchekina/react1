@@ -3,9 +3,9 @@ import './App.css';
 
 function Content() {
   return (
-      <div className="App-content">
-          HELLO!
-      </div>
+      <main className="App-content">
+          <p>HELLO!</p>
+      </main>
   );
 }
 export default Content;

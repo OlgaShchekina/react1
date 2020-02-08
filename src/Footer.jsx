@@ -4,7 +4,7 @@ import Logo from "./Logo";
 
 function Footer() {
   return (
-      <div className="App-footer">
+      <footer className="App-footer">
           <div className="App-logo">
               <Logo/>
           </div>
@@ -13,7 +13,7 @@ function Footer() {
               Footer
           </div>
 
-      </div>
+      </footer>
   );
 }
 export default Footer;

@@ -30,13 +30,13 @@
   border: green 1px solid;
 }
 .App-menu-item{
-  display: flex;
-  height: 50px;
-  flex: 300px;
-  color: darkgreen;
-  justify-content: center;
-  align-items: center;
-  font-size: 30px;
+  padding:0;
+  list-style-type: none;
+  float: left;
+  color: green;
+  margin-right: 30px;
+  margin-left: 50px;
+
 }
 .App-content{
   display: flex;
@@ -82,7 +82,7 @@
     to {
       transform: rotate(360deg);
     }
-  }
+ }
 }
 
 
