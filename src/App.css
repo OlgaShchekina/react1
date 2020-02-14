@@ -22,14 +22,30 @@
   align-items: center;
   animation: App-logo-spin infinite 20s linear;
 }
-.App-menu{
+.Footer-menu{
   display: flex;
   width: 1200px;
   height: 50px;
   flex-direction: row;
   border: green 1px solid;
 }
-.App-menu-item{
+.Footer-menu{
+  display: flex;
+  width: 1200px;
+  height: 50px;
+  flex-direction: row;
+  border: green 1px solid;
+}
+.Header-menu-item{
+  padding:0;
+  list-style-type: none;
+  float: left;
+  color: green;
+  margin-right: 30px;
+  margin-left: 50px;
+
+}
+.Footer-menu-item{
   padding:0;
   list-style-type: none;
   float: left;
@@ -46,27 +62,34 @@
   border: purple 1px solid;
   justify-content: center;
   align-items: center;
-  font-size: 50px;
+  font-size: 30px;
 
 }
-.App-footer{
+/*.App-footer{*/
+/*  display: flex;*/
+/*  justify-content: space-between;*/
+/*  flex-direction: row;*/
+/*  !*height: 50px;*!*/
+/*  background-color: white;*/
+/*  border: greenyellow 1px solid;*/
+/*}*/
+.App-footer {
   display: flex;
-  justify-content: space-between;
   flex-direction: row;
-  height: 50px;
   background-color: white;
-  border: greenyellow 1px solid;
+  min-height:50px;
+  border: darkblue 1px solid;
 }
-.Footer-content{
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  background: white;
-  align-items: center;
-  width: 50px;
-  font-size: 30px;
-  color: green;
-}
+/*.Footer-content{*/
+/*  display: flex;*/
+/*  margin-left: auto;*/
+/*  margin-right: auto;*/
+/*  background: white;*/
+/*  align-items: center;*/
+/*  width: 50px;*/
+/*  font-size: 30px;*/
+/*  color: green;*/
+/*}*/
 @media (min-width: 960px) {
   .App {
     height: 100vh;

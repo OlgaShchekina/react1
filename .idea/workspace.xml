@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13e60607-bee0-408d-8262-af47980f9986" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Footer/FooterMenu.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Footer/FooterMenuItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Header/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Header/HeaderMenu.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Header/HeaderMenuItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Logo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MenuItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MenuItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MenuItem.jsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +57,12 @@
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Header" />
+      <recent name="$PROJECT_DIR$/src/Header1" />
+      <recent name="$PROJECT_DIR$/src/Footer/Header" />
+      <recent name="$PROJECT_DIR$/src/Footer" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -90,6 +99,11 @@
       <workItem from="1580783482429" duration="142000" />
       <workItem from="1580869875045" duration="111000" />
       <workItem from="1581099159226" duration="3408000" />
+      <workItem from="1581121514300" duration="654000" />
+      <workItem from="1581181378168" duration="319000" />
+      <workItem from="1581181740620" duration="5581000" />
+      <workItem from="1581480388946" duration="47000" />
+      <workItem from="1581641091308" duration="8373000" />
     </task>
     <task id="LOCAL-00001" summary="new project">
       <created>1580776583264</created>
@@ -98,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580776583264</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changes">
+      <created>1581121558456</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581121558456</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,13 +127,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new project" />
-    <option name="LAST_COMMIT_MESSAGE" value="new project" />
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="501" y="131" key="CommitChangelistDialog2" timestamp="1580776583078">
+    <state x="501" y="131" key="CommitChangelistDialog2" timestamp="1581121558181">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state x="501" y="131" key="CommitChangelistDialog2/0.23.1440.834@0.23.1440.834" timestamp="1580776583078" />
+    <state x="501" y="131" key="CommitChangelistDialog2/0.23.1440.834@0.23.1440.834" timestamp="1581121558181" />
     <state x="574" y="345" key="Github.ShareDialog" timestamp="1580776369467">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
@@ -137,9 +159,9 @@
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state x="100" y="107" key="SettingsEditor/0.23.1440.834@0.23.1440.834" timestamp="1580582876763" />
-    <state x="320" y="181" key="Vcs.Push.Dialog.v2" timestamp="1580776591542">
+    <state x="320" y="181" key="Vcs.Push.Dialog.v2" timestamp="1581121566124">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state x="320" y="181" key="Vcs.Push.Dialog.v2/0.23.1440.834@0.23.1440.834" timestamp="1580776591542" />
+    <state x="320" y="181" key="Vcs.Push.Dialog.v2/0.23.1440.834@0.23.1440.834" timestamp="1581121566124" />
   </component>
 </project>
