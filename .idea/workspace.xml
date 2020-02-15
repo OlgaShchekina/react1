@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13e60607-bee0-408d-8262-af47980f9986" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Footer/FooterMenu.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Footer/FooterMenuItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Header/HeaderMenu.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Header/HeaderMenuItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MenuItem.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Footer/FooterMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/FooterMenu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Footer/FooterMenuItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/FooterMenuItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Logo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Logo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +100,8 @@
       <workItem from="1581181378168" duration="319000" />
       <workItem from="1581181740620" duration="5581000" />
       <workItem from="1581480388946" duration="47000" />
-      <workItem from="1581641091308" duration="8373000" />
+      <workItem from="1581641091308" duration="8777000" />
+      <workItem from="1581701550932" duration="7559000" />
     </task>
     <task id="LOCAL-00001" summary="new project">
       <created>1580776583264</created>
@@ -119,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581121558456</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="changes">
+      <created>1581657054656</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581657054656</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,10 +136,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="501" y="131" key="CommitChangelistDialog2" timestamp="1581121558181">
+    <state x="501" y="131" key="CommitChangelistDialog2" timestamp="1581657054211">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state x="501" y="131" key="CommitChangelistDialog2/0.23.1440.834@0.23.1440.834" timestamp="1581121558181" />
+    <state x="501" y="131" key="CommitChangelistDialog2/0.23.1440.834@0.23.1440.834" timestamp="1581657054211" />
     <state x="574" y="345" key="Github.ShareDialog" timestamp="1580776369467">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
@@ -159,9 +164,9 @@
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state x="100" y="107" key="SettingsEditor/0.23.1440.834@0.23.1440.834" timestamp="1580582876763" />
-    <state x="320" y="181" key="Vcs.Push.Dialog.v2" timestamp="1581121566124">
+    <state x="320" y="181" key="Vcs.Push.Dialog.v2" timestamp="1581657060752">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state x="320" y="181" key="Vcs.Push.Dialog.v2/0.23.1440.834@0.23.1440.834" timestamp="1581121566124" />
+    <state x="320" y="181" key="Vcs.Push.Dialog.v2/0.23.1440.834@0.23.1440.834" timestamp="1581657060752" />
   </component>
 </project>

@@ -7,7 +7,7 @@ import HeaderMenu from "./HeaderMenu";
 function Header(props) {
   return (
       <header>
-      <div className="App-header">
+      <div className="container">
           <Logo/>
           <HeaderMenu headerMenuItem ={props.headerMenuItem} />
      </div>

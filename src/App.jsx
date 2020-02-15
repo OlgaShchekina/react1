@@ -40,15 +40,18 @@ const items2 = [
     {
         text: 'Privacy',
         link: 'privacy-page',
-        size: 1
+
     }
 ];
+
+const text = "Hello World";
+
 function App() {
     return (
         <div className="App">
-            <Header headerMenuItem ={items1}/>
+            <Header headerMenuItem={items1}/>
             <Content/>
-            <Footer footerMenuItem = {items2}/>
+            <Footer headerMenuItem={items1} footerMenuItem1={items2} footerText={text}/>
 
         </div>
     );

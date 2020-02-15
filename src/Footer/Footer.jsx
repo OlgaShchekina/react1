@@ -6,15 +6,13 @@ import FooterMenu from "./FooterMenu";
 function Footer(props) {
   return (
       <footer>
-      <div className="App-footer">
+      <div className="container">
           <div className="App-logo">
               <Logo/>
           </div>
 
          <div className="Footer-content">
-             <FooterMenu footerMenuItem={props.footerMenuItem} />
-
-             <p>HELLO!!</p>
+             <FooterMenu headerMenuItem={props.headerMenuItem} footerMenuItem1={props.footerMenuItem1} footerText={props.footerText}/>
 
           </div>
 

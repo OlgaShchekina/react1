@@ -8,7 +8,7 @@ function FooterMenuItem(props) {
 
   return (
       <li className="Footer-menu-item">
-         <a href={props.footerMenuItem.link}>{props.footerMenuItem.text}</a>
+         <a href={props.footerMenuItem1.link}>{props.footerMenuItem1.text}</a>
       </li>
 
   );
