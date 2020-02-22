@@ -1,8 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import Content from "./Content";
+import Counter from "./Counter";
+
+
 
 
 const items1 = [
@@ -47,11 +50,25 @@ const items2 = [
 const text = "Hello World";
 
 function App() {
+    const [totalCount, setTotalCount] = useState(0);
+
+    function countChanges(value) {
+        console.log('Changed!!' + value);
+        setTotalCount(value);
+
+    }
     return (
         <div className="App">
             <Header headerMenuItem={items1}/>
-            <Content/>
+
+            {/*<Content bc={buttonClicked}/>*/}
             <Footer headerMenuItem={items1} footerMenuItem1={items2} footerText={text}/>
+            Total: {totalCount}
+            <hr/>
+            <Counter startCount = {2} countChanges = {countChanges}/>
+            <hr/>
+            <Counter startCount = {5} countChanges = {countChanges}/>
+
 
         </div>
     );

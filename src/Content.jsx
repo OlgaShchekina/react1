@@ -1,10 +1,16 @@
 import React from 'react';
 
-function Content() {
+function Content(props) {
+
+    let name = 'Initial';
+
     const clickButtonHandler = (value) => {
-        console.log('Clicked! '+ value)
+        props.bc(name + value);
+        console.log('Clicked! '+ name);
+
     };
     const inputHandler = (e) => {
+        name = e.target.value();
         console.log(e.target.value)
     };
 
@@ -14,10 +20,11 @@ function Content() {
             <div className="container">
 
                 <h1>First app</h1>
+                {name}
                 <input type="text" onChange={inputHandler}/>
 
-                <button onClick={()=> clickButtonHandler()}>Add one</button>
-                <button onClick={()=> clickButtonHandler()}>Add two</button>
+                <button onClick={()=> clickButtonHandler(1)}>Add one</button>
+                <button onClick={()=> clickButtonHandler(2)}>Add two</button>
 
             </div>
         </main>
